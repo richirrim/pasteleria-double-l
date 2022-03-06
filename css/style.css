@@ -133,31 +133,31 @@ input[type="checkbox"][disabled] {
     }
 .icon-cake::before {
     content: "";
-    background-image: url("/icons/icon-cake.svg");
+    background-image: url("../icons/icon-cake.svg");
     background-repeat: no-repeat;
     filter: invert(16%) sepia(17%) saturate(743%) hue-rotate(155deg) brightness(92%) contrast(89%);
 }
 .icon-star::before {
     content: "";
-    background-image: url("/icons/icon-star.svg");
+    background-image: url("../icons/icon-star.svg");
     background-repeat: no-repeat;
     filter: invert(16%) sepia(17%) saturate(743%) hue-rotate(155deg) brightness(92%) contrast(89%);
 }
 .icon-card::before {
     content: "";
-    background-image: url("/icons/icon-card.svg");
+    background-image: url("../icons/icon-card.svg");
     background-repeat: no-repeat;
     filter: invert(16%) sepia(17%) saturate(743%) hue-rotate(155deg) brightness(92%) contrast(89%);
 }
 .icon-location::before {
     content: "";
-    background-image: url("/icons/icon-location.svg");
+    background-image: url("../icons/icon-location.svg");
     background-repeat: no-repeat;
     filter: invert(16%) sepia(17%) saturate(743%) hue-rotate(155deg) brightness(92%) contrast(89%);
 }
 .icon-phone::before {
     content: "";
-    background-image: url("/icons/icon-phone.svg");
+    background-image: url("../icons/icon-phone.svg");
     background-repeat: no-repeat;
     filter: invert(16%) sepia(17%) saturate(743%) hue-rotate(155deg) brightness(92%) contrast(89%);
 }
