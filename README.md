@@ -10,3 +10,6 @@ En mi caso maquete  y programe una landig page con navegación incluida que al 
 ## Preview de la landing page | Index.html
 
 ![image preview - landing page | Pasteleria doublue l](https://repository-images.githubusercontent.com/463644862/0a62270d-6c33-4e83-9f39-aea6191135b2)
+
+## Preview 2 | pastel-creator.html
+![image preview - pastel-creator](https://repository-images.githubusercontent.com/466884595/dad71e75-32a5-4a50-abf9-e575898e4957)
