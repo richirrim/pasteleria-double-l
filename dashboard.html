@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encuentra los pasteles más deliciosos y ponle tus
+    propias chipas crativas, con tus propias manos.">
+    <title>Dashboard</title>
+    <link rel="icon" href="./images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="main-header  l-section">
+        <img class="banner__hero-image" src="./images/banner.jpg" alt="Imagen, banner, principal de la página.">
+        <div class="main-header__content">
+            <div class="container  l-container">
+                <!-- ---------- $Logo --------------- -->
+                <a class="logo-link" href="./">
+                    <img class="main-logo" width="100px" src="./images/logo.png" alt="Logo de la pasteleria">
+                </a>
+                <!-- ---------- $Navegation --------------- -->
+                <nav class="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a class="menu__link"href="./">Home</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#aboutus">Sobre nosotros</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#gallery">Galeria</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#contact">Contactanos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- ---------- $Banner --------------- -->
+            <div class="banner">
+                <div class="banner__content">
+                    <h1 class="banner__title">Registro de pedidos</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-dashboard">
+        <section class="orders   l-container  l-section">
+            <h2 class="orders__title">Registro de pedidos</h2>
+            <div class="tbl-header">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                  <tr>
+                    <th>Nombre del cliente</th>
+                    <th>Celular</th>
+                    <th>Email</th>
+                    <th>Descripción del pedido</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+            <div class="tbl-content">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tbody>
+                  <tr>
+                    <td>Jose</td>
+                    <td>+52 981 231 2345</td>
+                    <td>jose@gmail.com</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, cum odio earum facere.</td>
+                  </tr>
+                  <tr>
+                    <td>Barry Allen</td>
+                    <td>+52 981 567 3634</td>
+                    <td>Allen@gmail.com</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, cum odio earum facere, commodi expedita quis reiciendis hic vitae atque provident recusandae delectus corrupti temporibus eum! Autem deleniti obcaecati explicabo.</td>
+                  </tr>
+                  <tr>
+                    <td>Maria</td>
+                    <td>+52 981 678 1234</td>
+                    <td>Maria@gmail.com</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, cum odio earum facere.</td>
+                  </tr>
+                  <tr>
+                    <td>Luis</td>
+                    <td>+52 981 987 3478</td>
+                    <td>Luis@gmail.com</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, cum odio earum facere, commodi expedita quis reiciendis hic vitae atque provident recusandae delectus corrupti temporibus eum! Autem deleniti obcaecati explicabo.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </section>
+        <!-- ---------- $Flavors | total en existencia --------------- -->
+        <section class="flavors  l-section  l-container">
+            <h2 class="flavors__title">TOTAL DE sabores en existencia</h2>
+            <span class="flavors__number-selected-flavors"></span>
+            <div class="card  card-flavor">
+                <div class="card  card-flavor__color"></div>
+                <span class="card-flavor__text">3 Cajas</span>
+            </div>
+            <div class="card  card-flavor">
+                <div class="card  card-flavor__color  card-flavor__vanilla"></div>
+                <span class="card-flavor__text">1 Caja</span>
+            </div>
+            <div class="card  card-flavor">
+                <div class="card  card-flavor__color  card-flavor__vanilla"></div>
+                <span class="card-flavor__text">4 Cajas</span>
+            </div>
+            <div class="card  card-flavor">
+                <div class="card  card-flavor__color  card-flavor__vanilla"></div>
+                <span class="card-flavor__text">2 Cajas</span>
+            </div>
+            <div class="card  card-flavor">
+                <div class="card  card-flavor__color  card-flavor__vanilla"></div>
+                <span class="card-flavor__text">4 Cajas</span>
+            </div>
+            <div class="card  card-flavor">
+                <div class="card  card-flavor__color  card-flavor__vanilla"></div>
+                <span class="card-flavor__text">3 Cajas</span>
+            </div>
+        </section>
+        <!-- ---------- $Toppings | total en existencia --------------- -->
+        <section id="js-toppings" class="toppings  l-section  l-container">
+            <h2 class="toppings__title">Total de toppings en existencia</h2>
+            <div class="card  card-topping">
+                <img class="card-topping__image" src="./images/topping-fresas.png" alt="Imagen del topping 1">
+                <span class="card-topping__text">3 Cajas | 30U</span>
+            </div>
+            <div class="card  card-topping">
+                <img class="card-topping__image" src="./images/topping-chispast.png" alt="Imagen del topping 2">
+                <span class="card-topping__text">5 Cajas</span>
+                
+            </div>
+            <div class="card  card-topping">
+                <img class="card-topping__image" src="./images/topping-oreo.png" alt="Imagen del topping 3">
+                <span class="card-topping__text">5 Cajas | 10U</span>
+            </div>
+            <div class="card  card-topping">
+                <img class="card-topping__image" src="./images/topping-chocolate.png" alt="Imagen del topping 4">
+                <span class="card-topping__text">8 Cajas | 15U</span>
+            </div>
+            <div class="card  card-topping">
+                <img class="card-topping__image" src="./images/topping-text.png" alt="Imagen del topping 5">
+                <span class="card-topping__text">4 Cajas</span>
+            </div>
+            <div class="card  card-topping">
+                <img class="card-topping__image" src="./images/topping-crema.png" alt="Imagen del topping 6">
+                <span class="card-topping__text">8 Cajas</span>
+            </div>
+        </section>
+    </main>
+</body>

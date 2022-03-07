@@ -494,6 +494,11 @@ input[type="checkbox"][disabled] {
         font-size: 1.2em;
         width: 100%;
     }
+    .card-flavor__text {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
     .card-flavor:nth-child(3) > .card-flavor__color {
         background-color: #F3E5AB;
     }
@@ -537,6 +542,11 @@ input[type="checkbox"][disabled] {
     }
     .card-topping__label {
         font-size: 1.6em;
+    }
+    .card-topping__text {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
     }
 
 
@@ -585,3 +595,41 @@ input[type="checkbox"][disabled] {
 }
     .main-footer span {}
     .main-footer__logo {}
+
+
+/*------------------------------------------------------------------------------*\
+    Page 3 | Dashboard
+\*------------------------------------------------------------------------------*/
+/*-----------------------*\
+    $Table
+\*-----------------------*/
+table {
+    width:100%;
+    table-layout: fixed;
+}
+.tbl-header { 
+    background-color: var(--color-first);
+}
+.tbl-content {
+    height: 20em;
+    overflow-x:auto;
+    margin-top: 0;
+    border: .1em solid var(--color-first);
+}
+th {
+    padding: 2em 1em;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: var(--color-text);
+    border-bottom: solid 1px var(--color-second);
+}
