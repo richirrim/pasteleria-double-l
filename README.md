@@ -1,6 +1,8 @@
 # Etapa 2 - Mission Frontend
 ## 2da práctica
 
+`Enlace de la page:` https://richirrim.github.io/pasteleria-double-l/
+
 En la 2da práctica se pusieron a prueba los conocimientos de HTML adquiridos en la semana, en esta nueva práctica  el Mission comander (Rodrigo Martinez) puso varios niveles de complejidad para los Explorers que traían un poco más de conocimientos y si era así podías seguir escalando o simplemente quedarte hasta donde tu conocimiento y entendimiento te lo permitiera. 
 
 La práctica fue crear una pastelería en la cual un cliente podría crear o paralizar a su gusto un pastel. 
